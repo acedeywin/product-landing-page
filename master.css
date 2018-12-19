@@ -40,6 +40,7 @@ input:hover[type="submit"] {font-weight: bold; cursor: pointer; background-color
 
 #email {max-width: 50%; padding: 10px 240px 10px 20px; border-radius: 5px;}
 img {max-width: 100%; height: 230px; }
+#tiwa {width: 700px;}
 
 @media (max-width: 800px) {.grid-class {display: flex; flex-direction: column; max-width: 100%; height: auto;}}
 @media (max-width: 600px) {.grid-class {display: flex; flex-direction: column; max-width: 80%; height: auto;}}
