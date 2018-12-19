@@ -1,6 +1,6 @@
 body {font-family: 'Thasadith', sans-serif; display: flex; flex-direction: column; align-items: center;  flex-shrink: 10; background: rgb(242, 242, 242)}
 
-.bar {position: fixed !important; top: 0px; width: 96%; height: 13%; padding: 0px 26px 0px 26px; background-color: #ffffff; color: rgb(99, 99, 232); box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
+#header {position: fixed !important; top: 0px; width: 96%; height: 13%; padding: 0px 26px 0px 26px; background-color: #ffffff; color: rgb(99, 99, 232); box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
 
 #header-img {max-width: 20%; height: auto; display: block; align-content: flex-start; margin: -45px; }
 
