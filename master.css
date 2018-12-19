@@ -53,8 +53,8 @@ img {max-width: 100%; height: 230px; }
 #nig-img {max-width: 50px; max-height: 50px;}
 
 .social {font-size: 30px; color: black; margin-top: 30px;}
-.foot-wrap {margin-top: 1%; display: grid; grid-template-columns: 60% 30%; grid-column-gap: 2%; background: rgb(166, 166, 166);}
-.owner {margin-bottom: 30px; padding-left: 10px; padding-top: 20px;}
+.foot-wrap {margin-top: 1%; display: grid; grid-template-columns: 60% 30%; grid-column-gap: 2%; background: rgb(0, 0, 0);}
+.owner {margin-bottom: 30px; padding-left: 10px; padding-top: 20px; color: #ffffff}
 
 @media (max-width: 800px) {.foot-wrap {font-size: 13px; display: flex; flex-direction: column; max-width: 100%; height: auto; align-items: center; margin-left: 22px;}}
 @media (max-width: 600px) {.foot-wrap {display: flex; flex-direction: column; max-width: 80%; height: auto;}}
