@@ -1,0 +1,61 @@
+body {font-family: 'Thasadith', sans-serif; display: flex; flex-direction: column; align-items: center;  flex-shrink: 10; background: rgb(242, 242, 242)}
+
+.bar {position: fixed !important; top: 0px; width: 96%; height: 13%; padding: 0px 26px 0px 26px; background-color: #ffffff; color: rgb(99, 99, 232); box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
+
+#header-img {max-width: 20%; height: auto; display: block; align-content: flex-start; margin: -45px; }
+
+#nav-bar {text-align: right; font-size: 20px; float: right; margin-top: -60px; margin-right: 100px;}
+
+.nav-link {padding: 0px 30px 0px 30px}
+
+@media (max-width: 1200px) {#header-img {margin: -30px;}}
+@media (max-width: 1000px) {#header-img {margin: -20px;}}
+@media (max-width: 800px) {#header-img {margin: 0px;}}
+@media (max-width: 800px) {#nav-bar {margin-right: 0px; font-size: 15px;}}
+@media (max-width: 600px) {#nav-bar {margin-top: -30px}}
+@media (max-width: 800px) {.nav-link {padding: 0px 10px 0px 10px; margin-top: -10px}}
+
+#video {margin-top: 7%; width: 100%; height: auto; display: block; align-items: center;}
+
+@media (max-width: 1200px) {#video {margin-top: 10%;}}
+@media (max-width: 800px) {#video {margin-top: 12%;}}
+@media (max-width: 600px) {#video {margin-top: 20%;}}
+@media (max-width: 400px) {#video {margin-top: 25%;}}
+
+#form {margin-top: 1%; display: grid; grid-template-columns: 20% 40% 8% 25%; justify-content: center; font-size: 20px;}
+
+#form-label {padding-top: 10px;}
+
+.fa-air-freshener {font-size: 70px; color: rgb(99, 99, 232); margin-left: 40%}
+.fa-balance-scale {font-size: 70px; color: rgb(99, 99, 232); margin-left: 40%}
+.fa-affiliatetheme {font-size: 70px; color: rgb(99, 99, 232); margin-left: 40%}
+
+.grid-class {display: grid; grid-template-columns: 30% 30% 30%; grid-column-gap: 2%; grid-template-rows:50% 50%; grid-row-gap: 10%; margin-left: 6%; margin-top: 1%;}
+
+.content {margin-top: 5px; text-align: justify; padding: 20px 20px 20px 20px; color: #666666; box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5); border-radius: 5px; background: rgb(255, 255, 255);}
+
+input[type="submit"]  {max-width:8% font-weight: bold; background-color: rgb(99, 99, 232); color: #ffffff; padding: 15px 20px 15px 20px; border-radius: 8px; }
+
+input:hover[type="submit"] {font-weight: bold; cursor: pointer; background-color: #cceeff; color: #000000;}
+
+#email {max-width: 50%; padding: 10px 240px 10px 20px; border-radius: 5px;}
+img {max-width: 100%; height: 230px; }
+
+@media (max-width: 800px) {.grid-class {display: flex; flex-direction: column; max-width: 100%; height: auto;}}
+@media (max-width: 600px) {.grid-class {display: flex; flex-direction: column; max-width: 80%; height: auto;}}
+
+@media (max-width: 600px) {#form-label {font-size: 0px;}}
+@media (max-width: 600px) {#form {display: flex; flex-direction: row;}}
+@media (max-width: 600px) {input[type="submit"]  {max-width:5% font-weight: bold; padding: 7px 10px 7px 10px; }}
+@media (max-width: 600px) {#email {max-width: 50%; padding: 10px 40px 10px 20px;}}
+
+#nig-img {max-width: 50px; max-height: 50px;}
+
+.social {font-size: 30px; color: black; margin-top: 30px;}
+.foot-wrap {margin-top: 1%; display: grid; grid-template-columns: 60% 30%; grid-column-gap: 2%; background: rgb(166, 166, 166);}
+.owner {margin-bottom: 30px; padding-left: 10px; padding-top: 20px;}
+
+@media (max-width: 800px) {.foot-wrap {font-size: 13px; display: flex; flex-direction: column; max-width: 100%; height: auto; align-items: center; margin-left: 22px;}}
+@media (max-width: 600px) {.foot-wrap {display: flex; flex-direction: column; max-width: 80%; height: auto;}}
+@media (max-width: 600px) {#nig-img {max-width: 20px; max-height: 20px;}}
+a {text-decoration: none;}
